@@ -5,6 +5,13 @@ Created on 2014年2月27日
 
 @author: Administrator
 '''
+#function: list returnsearchlist(test)
+#input test list: 2D LIST
+#1-D qid, qname
+#2-D query set(here is acronym words)
+#output list: 2D LIST
+#1-D qid, qname, expand-string
+#2-D query set(here is acronym & not expand None)
 import string
 import re
 def qeBracket(qid, name, back_dir = "D:\\桌面待分类\\query_text_2013\\"):
