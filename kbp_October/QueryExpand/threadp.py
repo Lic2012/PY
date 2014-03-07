@@ -5,6 +5,19 @@ Created on 2014Äê3ÔÂ7ÈÕ
 
 @author: Administrator
 '''
+#this file output is
+''' 
+EL13_ENG_0059 CAIRO
+['E0052846', 'E0546104', 'E0645823']
+EL13_ENG_0003 PNC
+[]
+EL13_ENG_0060 HSE
+[]
+EL13_ENG_0014 PSF
+[]
+'''
+#input test
+
 import threadpool
 import qeBracket
 
@@ -27,7 +40,7 @@ def finder(searchlist):
     return qid,qname,canlist
 
 def print_result(request, result):
-
+    #write to file , add sth here
     print result[0],result[1]
     print result[2]
 
